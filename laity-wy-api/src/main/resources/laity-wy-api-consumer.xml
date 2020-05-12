@@ -10,7 +10,7 @@
   <dubbo:application name="API"/>
 
   <!-- 配置注册中心，从注册中心发现服务，这里的注册中心为zookeeper -->
-  <dubbo:registry address="zookeeper://127.0.0.1:2181" />
+  <dubbo:registry address="zookeeper://120.79.66.109:2181" />
 
   <!-- 声明服务消费 -->
   <dubbo:reference id="welcomeService" interface="com.laity.wy.sample.service.WelcomeService" />

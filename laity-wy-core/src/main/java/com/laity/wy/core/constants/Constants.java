@@ -19,8 +19,7 @@ public interface Constants {
     @AllArgsConstructor
     enum ResponseStatus implements com.laity.wy.core.model.ResponseStatus {
         SUCCESS("SUCCESS", "请求成功"),
-        FAILED("FAILED", "请求失败"),
-        ;
+        FAILED("FAILED", "请求失败");
         private String code;
 
         private String message;
