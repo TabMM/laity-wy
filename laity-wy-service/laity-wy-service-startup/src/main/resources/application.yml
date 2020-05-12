@@ -10,9 +10,9 @@ server:
 spring:
   # 数据源配置
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/db_test?characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://120.79.66.109:3306/laity?characterEncoding=utf8&useSSL=false
     username: root
-    password: root
+    password: root1234
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
   jackson:

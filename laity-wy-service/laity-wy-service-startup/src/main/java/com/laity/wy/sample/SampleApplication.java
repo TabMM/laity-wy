@@ -2,6 +2,7 @@ package com.laity.wy.sample;
 
 import lombok.extern.slf4j.Slf4j;
 // import org.mybatis.spring.annotation.MapperScan;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -11,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2020/05/12 10:54
  */
 @SpringBootApplication
-//@MapperScan("com.laity.wy.sample.dao")
+@MapperScan("com.laity.wy.sample.dao")
 @Slf4j
 public class SampleApplication {
 
